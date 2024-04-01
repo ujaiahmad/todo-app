@@ -23,7 +23,7 @@ class _CustomRowTaskState extends State<CustomRowTask> {
             style: isComplete
                 ? const TextStyle(decoration: TextDecoration.lineThrough)
                 : const TextStyle(decoration: null)),
-        const Spacer(),
+        Spacer(),
         CustomCheckbox(
           isComplete: isComplete,
           toggleBoolCallback: (p0) {
@@ -33,7 +33,7 @@ class _CustomRowTaskState extends State<CustomRowTask> {
           },
         ),
         IconButton(
-            onPressed: widget.deleteWidgetCallback, icon: const Icon(Icons.delete))
+            onPressed: widget.deleteWidgetCallback, icon: Icon(Icons.delete))
       ],
     );
   }
