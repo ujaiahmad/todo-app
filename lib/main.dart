@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(primaryColor: Colors.lightBlueAccent),
       title: 'Flutter Demo',
-      home: MyHomePage(),
+      home: const MyHomePage(),
     );
   }
 }
@@ -64,13 +64,13 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
+                  const Text(
                     'Todoey',
                     style: TextStyle(color: Colors.white, fontSize: 58),
                   ),
                   Text(
                     ' ${taskWidgetList.length} Task',
-                    style: TextStyle(color: Colors.white),
+                    style: const TextStyle(color: Colors.white),
                   ),
                 ],
               ),
@@ -126,14 +126,14 @@ class _MyHomePageState extends State<MyHomePage> {
                               context: context,
                               builder: (context) => AlertDialog(
                                     title:
-                                        Text('You have not entered any task'),
-                                    content: Text(
+                                        const Text('You have not entered any task'),
+                                    content: const Text(
                                         'Type something and then press enter'),
                                     actions: [
                                       IconButton(
                                           onPressed: () =>
                                               Navigator.pop(context),
-                                          icon: Icon(Icons.close))
+                                          icon: const Icon(Icons.close))
                                     ],
                                   ));
                         } else {
