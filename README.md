@@ -1,16 +1,16 @@
-# todo_app
+# To do app
 
-A new Flutter project.
+Features:
+1. Add/remove task
+2. Strike-through task
+3. Delete task
 
-## Getting Started
+Implementation:
+1. Use of unique key to delete each task
 
-This project is a starting point for a Flutter application.
+## Screen Recording
+https://github.com/ujaiahmad/todo-app/assets/25504609/ac1fcecf-344c-409f-88df-a015b002abf1
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
